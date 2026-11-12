@@ -12,7 +12,7 @@
 
 **MiniCM**, created by [nobodyAtall (nAa)](https://xdaforums.com/m/nobodyatall.788040/), brought newer Android versions to tiny Sony Ericsson Xperia phones through unofficial CyanogenMod builds, custom kernels and hardware-specific engineering.
 
-<p><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/sections/01_roms.gif" alt="The ROMs — MiniCM6, MiniCM7, MiniCM9, MiniCM10" width="100%" /></p>
+<p><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/sections/01_roms_v2.gif" alt="The ROMs — MiniCM6, MiniCM7, MiniCM9, MiniCM10" width="100%" /></p>
 
 | MiniCM generation | Android | Original MiniCM work |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ The [historical MiniCM downloads listing](https://archive.ph/qiUo8) records thes
 
 ---
 
-<p><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/sections/02_kernel.gif" alt="nAa Kernel — Xperia hardware and recovery" width="100%" /></p>
+<p><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/sections/02_kernel_v2.gif" alt="nAa Kernel — Xperia hardware and recovery" width="100%" /></p>
 
 MiniCM's kernel work included separate Android-generation lines. Kernel and recovery changes were essential for getting hardware drivers and newer Android builds working on early Qualcomm devices.
 
@@ -47,7 +47,7 @@ MiniCM's kernel work included separate Android-generation lines. Kernel and reco
 
 ---
 
-<p><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/sections/03_xda.gif" alt="XDA Releases and Achievements — original threads and milestones" width="100%" /></p>
+<p><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/sections/03_xda_v2.gif" alt="XDA Releases and Achievements — original threads and milestones" width="100%" /></p>
 
 | Release and milestone | Original source |
 | --- | --- |
@@ -64,7 +64,7 @@ FreeXperia work is included in the historical archive as a **related but separat
 
 ---
 
-<p><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/sections/04_community.gif" alt="The Community — open source testers and contributors" width="100%" /></p>
+<p><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/sections/04_community_v2.gif" alt="The Community — open source testers and contributors" width="100%" /></p>
 
 MiniCM was part of a broader open-source Android modding community. Kernel developers, testers, translators and other contributors helped make Android usable on devices with very limited RAM, storage and display sizes.
 
