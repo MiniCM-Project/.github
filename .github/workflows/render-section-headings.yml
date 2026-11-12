@@ -1,0 +1,29 @@
+name: Render MiniCM seamless section headings
+on:
+  push:
+    paths:
+      - ".github/workflows/render-section-headings.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Pillow
+        run: python -m pip install Pillow==11.1.0
+      - name: Render four 3-second seamlessly looping GIFs
+        run: python scripts/render_section_headings.py
+      - name: Commit generated GIFs
+        run: |
+          git config user.name "nobodyAtall-code"
+          git config user.email "hashyofficial@gmail.com"
+          git add profile/assets/sections/
+          if ! git diff --cached --quiet; then
+            git commit -m "Render animated MiniCM section headings"
+            git push origin HEAD:main
+          fi
