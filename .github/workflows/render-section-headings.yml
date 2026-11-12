@@ -19,6 +19,26 @@ jobs:
         run: python -m pip install Pillow==11.1.0
       - name: Render four 3-second seamlessly looping GIFs
         run: python scripts/render_section_headings.py
+      - name: Verify real animation frames and infinite loop
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageChops
+          from pathlib import Path
+          for path in sorted(Path("profile/assets/sections").glob("*_v2.gif")):
+              with Image.open(path) as im:
+                  assert im.n_frames >= 20, (path, im.n_frames)
+                  assert im.info.get("loop") == 0, (path, im.info.get("loop"))
+                  im.seek(0)
+                  first = im.convert("RGB").copy()
+                  im.seek(im.n_frames//2)
+                  middle = im.convert("RGB").copy()
+                  bbox = ImageChops.difference(first, middle).getbbox()
+                  assert bbox is not None, f"Animated frames identical: {path}"
+                  pixels = ImageChops.difference(first, middle).convert("L")
+                  changed = sum(pixels.histogram()[1:])
+                  assert changed > 5000, f"Animation too subtle: {path}, changed pixels {changed}"
+                  print(f"Verified {path}: {im.n_frames} frames, infinite loop, {changed} visibly changed pixels")
+          PY
       - name: Commit generated GIFs
         run: |
           git config user.name "nobodyAtall-code"
