@@ -15,21 +15,19 @@
 ## 📱 Xperia legacy gallery
 
 <table>
-<tr><td align="center" valign="top" width="25%">
+<tr><td align="center" valign="top" width="33%">
 <a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X8_-_Front.jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Sony_Ericsson_Xperia_X8_-_Front.jpg/500px-Sony_Ericsson_Xperia_X8_-_Front.jpg" width="210" height="280" alt="Photograph of Xperia X8" /></a></td>
-<td align="center" valign="top" width="25%"><a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_(Luster_White)_-_Front.jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Sony_Ericsson_Xperia_X10_%28Luster_White%29_-_Front.jpg/500px-Sony_Ericsson_Xperia_X10_%28Luster_White%29_-_Front.jpg" width="210" height="280" alt="Photograph of Xperia X10" /></a></td>
-<td align="center" valign="top" width="25%"><a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_-_Front.jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Sony_Ericsson_Xperia_X10_mini_-_Front.jpg/500px-Sony_Ericsson_Xperia_X10_mini_-_Front.jpg" width="210" height="280" alt="Photograph of Xperia X10 Mini" /></a></td>
-<td align="center" valign="top" width="25%"><a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_pro_-_Front_(Open).jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Sony_Ericsson_Xperia_X10_mini_pro_-_Front_%28Open%29.jpg/500px-Sony_Ericsson_Xperia_X10_mini_pro_-_Front_%28Open%29.jpg" width="210" height="280" alt="Photograph of Xperia X10 Mini Pro" /></a>
+<td align="center" valign="top" width="33%"><a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_-_Front.jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Sony_Ericsson_Xperia_X10_mini_-_Front.jpg/500px-Sony_Ericsson_Xperia_X10_mini_-_Front.jpg" width="210" height="280" alt="Photograph of Xperia X10 Mini" /></a></td>
+<td align="center" valign="top" width="33%"><a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_pro_-_Front_(Open).jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Sony_Ericsson_Xperia_X10_mini_pro_-_Front_%28Open%29.jpg/500px-Sony_Ericsson_Xperia_X10_mini_pro_-_Front_%28Open%29.jpg" width="210" height="280" alt="Photograph of Xperia X10 Mini Pro" /></a>
 </td></tr>
 <tr><td align="center">
 <strong>Xperia X8</strong><br/><sub>shakira · E15i</sub></td>
-<td align="center" valign="top"><strong>Xperia X10</strong><br/><sub>X10i · full-size Xperia</sub></td>
 <td align="center" valign="top"><strong>Xperia X10 Mini</strong><br/><sub>robyn · E10i</sub></td>
 <td align="center" valign="top"><strong>Xperia X10 Mini Pro</strong><br/><sub>mimmi · U20i</sub>
 </td></tr>
 </table>
 
-<sub>Real photographs of the original Xperia hardware. The full-size **Xperia X10** is shown as part of the Xperia family gallery, **not** as a confirmed MiniCM-supported model. The original MiniCM devices are **X8, X10 Mini and X10 Mini Pro**. Photo credit and licenses are linked below.</sub>
+<sub>Real photographs of the **three original MiniCM Xperia devices**: X8, X10 Mini and X10 Mini Pro. Photo credits and licenses are linked below.</sub>
 
 ---
 
@@ -50,7 +48,7 @@
 | **Xperia X10 Mini** | `robyn` | `MiniCM7-2.2.1-robyn.zip` |
 | **Xperia X10 Mini Pro** | `mimmi` | `MiniCM7-2.2.1-mimmi.zip` |
 
-The [historical MiniCM downloads listing](https://archive.ph/qiUo8) records these three releases and corresponding kernel files. **No original MiniCM7 release for the full-size Xperia X10 was verified.**
+The [historical MiniCM downloads listing](https://archive.ph/qiUo8) records these three releases and corresponding kernel files.
 
 ---
 
@@ -93,10 +91,9 @@ Read [**An audience with nobodyAtall**](https://xperiaminicyanogen.wordpress.com
 
 ### Photo attribution
 
-All four gallery images are photographs by **[Beamish4](https://commons.wikimedia.org/wiki/User:Beamish4)** on Wikimedia Commons. Source and applicable licenses:
+All three gallery images are photographs by **[Beamish4](https://commons.wikimedia.org/wiki/User:Beamish4)** on Wikimedia Commons. Source and applicable licenses:
 
 - [Xperia X8](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X8_-_Front.jpg) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- [Xperia X10, Luster White](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_(Luster_White)_-_Front.jpg) — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - [Xperia X10 Mini](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_-_Front.jpg) — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - [Xperia X10 Mini Pro, keyboard open](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_pro_-_Front_(Open).jpg) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
