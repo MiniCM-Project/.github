@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/minicm-title.svg" alt="MiniCM — The Little Xperias That Could" width="100%" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/minicm-photo-hero.png" alt="MiniCM Xperia legacy — title and three photographed Xperia models together in one dark-green panel: Xperia X8, X10 Mini and X10 Mini Pro" width="100%" /></p>
 
 <p align="center">
  <a href="https://xdaforums.com/m/nobodyatall.788040/"><img src="https://img.shields.io/badge/DEVELOPER-nobodyAtall%20(nAa)-54e4b0?style=for-the-badge&labelColor=11272c" alt="Developer nobodyAtall (nAa)" /></a>
@@ -11,25 +11,6 @@
 <p align="center">Unofficial <strong>CyanogenMod</strong> and <strong>nAa Kernel</strong> development for classic Sony Ericsson Xperia devices.</p>
 
 **MiniCM**, created by [nobodyAtall (nAa)](https://xdaforums.com/m/nobodyatall.788040/), brought newer Android versions to tiny Sony Ericsson Xperia phones through unofficial CyanogenMod builds, custom kernels and hardware-specific engineering.
-
-## 📱 Xperia legacy gallery
-
-<table>
-<tr><td align="center" valign="top" width="33%">
-<a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X8_-_Front.jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Sony_Ericsson_Xperia_X8_-_Front.jpg/500px-Sony_Ericsson_Xperia_X8_-_Front.jpg" width="210" height="280" alt="Photograph of Xperia X8" /></a></td>
-<td align="center" valign="top" width="33%"><a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_-_Front.jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Sony_Ericsson_Xperia_X10_mini_-_Front.jpg/500px-Sony_Ericsson_Xperia_X10_mini_-_Front.jpg" width="210" height="280" alt="Photograph of Xperia X10 Mini" /></a></td>
-<td align="center" valign="top" width="33%"><a href="https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_pro_-_Front_(Open).jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Sony_Ericsson_Xperia_X10_mini_pro_-_Front_%28Open%29.jpg/500px-Sony_Ericsson_Xperia_X10_mini_pro_-_Front_%28Open%29.jpg" width="210" height="280" alt="Photograph of Xperia X10 Mini Pro" /></a>
-</td></tr>
-<tr><td align="center">
-<strong>Xperia X8</strong><br/><sub>shakira · E15i</sub></td>
-<td align="center" valign="top"><strong>Xperia X10 Mini</strong><br/><sub>robyn · E10i</sub></td>
-<td align="center" valign="top"><strong>Xperia X10 Mini Pro</strong><br/><sub>mimmi · U20i</sub>
-</td></tr>
-</table>
-
-<sub>Real photographs of the **three original MiniCM Xperia devices**: X8, X10 Mini and X10 Mini Pro. Photo credits and licenses are linked below.</sub>
-
----
 
 ## `01` / The ROMs
 
@@ -89,15 +70,15 @@ MiniCM was part of a broader open-source Android modding community. Kernel devel
 
 Read [**An audience with nobodyAtall**](https://xperiaminicyanogen.wordpress.com/interviews/an-audience-with-nobodyatall/) for the original development story and [the MiniCM Google Code archive](https://code.google.com/archive/p/minicm/) for historical project resources.
 
-### Photo attribution
+### Photo credits and artwork license
 
-All three gallery images are photographs by **[Beamish4](https://commons.wikimedia.org/wiki/User:Beamish4)** on Wikimedia Commons. Source and applicable licenses:
+The **single image at the top of this profile** combines three real-device photographs by [Beamish4](https://commons.wikimedia.org/wiki/User:Beamish4), published on Wikimedia Commons, with original MiniCM graphic design. Photographs were resized and placed into an illustrated panel.
 
-- [Xperia X8](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X8_-_Front.jpg) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- [Xperia X10 Mini](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_-_Front.jpg) — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- [Xperia X10 Mini Pro, keyboard open](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_pro_-_Front_(Open).jpg) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Xperia X8 photograph](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X8_-_Front.jpg) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Xperia X10 Mini photograph](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_-_Front.jpg) — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- [Xperia X10 Mini Pro photograph, keyboard open](https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_mini_pro_-_Front_(Open).jpg) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-These are linked, unmodified originals; only image display dimensions are adjusted. Photos remain hosted by Wikimedia Commons.
+The composite banner artwork is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Device trademarks belong to their respective owners.
 
 ---
 
