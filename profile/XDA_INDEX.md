@@ -2,8 +2,6 @@
 
 **Historical ROM and kernel links for the original MiniCM devices**: Xperia X8 (`shakira`), Xperia X10 Mini (`robyn`) and Xperia X10 Mini Pro (`mimmi`). Maintained as a reference to the work of [nobodyAtall (nAa)](https://xdaforums.com/m/nobodyatall.788040/) and other contributors.
 
-**Important:** The full-size **Xperia X10 (X10i)** is pictured in the [organization's photo gallery](https://github.com/MiniCM-Project), but an original MiniCM7 release for that device has **not** been verified; it is not included among the confirmed MiniCM devices.
-
 ## MiniCM7 — Gingerbread / CyanogenMod 7.2
 
 The historical MiniCM downloads index records **MiniCM7 2.2.1** for all three supported models, along with corresponding nAa kernels:
