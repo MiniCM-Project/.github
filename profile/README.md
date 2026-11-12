@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://github.com/MiniCM-Project/MiniCM">
-    <img src="https://raw.githubusercontent.com/MiniCM-Project/MiniCM/main/assets/minicm-hero.svg" width="100%" alt="MiniCM — The Little Xperias That Could" />
+  <a href="https://github.com/MiniCM-Project">
+    <img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/minicm-hero.svg" width="100%" alt="MiniCM — The Little Xperias That Could" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://xdaforums.com/m/nobodyatall.788040/"><img src="https://img.shields.io/badge/DEVELOPER-nobodyAtall%20(nAa)-58e4ac?style=for-the-badge&labelColor=102328" alt="Developer nobodyAtall" /></a>
-  <a href="https://github.com/MiniCM-Project/MiniCM"><img src="https://img.shields.io/badge/MiniCM-ORIGINAL%20PROJECT-7dd8e2?style=for-the-badge&labelColor=102328" alt="MiniCM project" /></a>
-  <a href="https://github.com/MiniCM-Project/MiniCM/blob/main/docs/XDA_INDEX.md"><img src="https://img.shields.io/badge/XDA-HISTORICAL%20THREADS-e7bd78?style=for-the-badge&labelColor=102328" alt="XDA historical threads" /></a>
+  <a href="https://github.com/MiniCM-Project"><img src="https://img.shields.io/badge/MiniCM-ORIGINAL%20PROJECT-7dd8e2?style=for-the-badge&labelColor=102328" alt="MiniCM project" /></a>
+  <a href="https://github.com/MiniCM-Project/.github/blob/main/profile/XDA_INDEX.md"><img src="https://img.shields.io/badge/XDA-HISTORICAL%20THREADS-e7bd78?style=for-the-badge&labelColor=102328" alt="XDA historical threads" /></a>
 </p>
 
 <h2 align="center">Small screens. Big possibilities.</h2>
@@ -17,7 +17,7 @@
 Welcome to the **MiniCM Project** organization: a home for historical source trees, ROM releases, kernel development and the XDA community that made it possible.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MiniCM-Project/MiniCM/main/assets/minicm-generations.svg" width="100%" alt="The MiniCM generations: MiniCM6, MiniCM7, MiniCM9 and MiniCM10" />
+  <img src="https://raw.githubusercontent.com/MiniCM-Project/.github/main/profile/assets/minicm-generations.svg" width="100%" alt="The MiniCM generations: MiniCM6, MiniCM7, MiniCM9 and MiniCM10" />
 </p>
 
 ---
@@ -67,7 +67,7 @@ MiniCM and **nAa (nobodyAtall) Kernel** were closely linked. Each Android genera
 | **nAa-ICS Kernel** | [nobodyAtall-code/nAa-kernel-ics](https://github.com/nobodyAtall-code/nAa-kernel-ics) |
 | **nAa-JB Kernel** | [nobodyAtall-code/nAa-kernel-jb](https://github.com/nobodyAtall-code/nAa-kernel-jb) |
 | **MSM7x27 Linux Kernel** | [nobodyAtall-code/msm7x27-2.6.32.x-nAa](https://github.com/nobodyAtall-code/msm7x27-2.6.32.x-nAa) |
-| **MiniCM source archive** | [MiniCM-Project repositories](https://github.com/orgs/MiniCM-Project/repositories) |
+| **MiniCM organization sources** | [MiniCM-Project repositories](https://github.com/orgs/MiniCM-Project/repositories) |
 
 The original project involved CyanogenMod system modifications, Xperia hardware enablement, recovery integration and contributions from the surrounding Android open-source community.
 
@@ -84,7 +84,7 @@ The original project involved CyanogenMod system modifications, Xperia hardware 
 | **MiniCM9 · Xperia X10 Mini Pro** | [XDA thread 1636501](https://forum.xda-developers.com/showthread.php?t=1636501) |
 | **FreeXperia · Xperia X10 Mini** | [CM7.1.0 stable FXP030](https://xdaforums.com/t/x10mini-development-cm7-1-0-stable-fxp030-released-freexperia-project.1211648/) — separate related project |
 
-**Browse more:** [Full MiniCM / nAa XDA index](https://github.com/MiniCM-Project/MiniCM/blob/main/docs/XDA_INDEX.md) · [MiniCM historical overview](https://github.com/MiniCM-Project/MiniCM) · [nobodyAtall on XDA](https://xdaforums.com/m/nobodyatall.788040/)
+**Browse more:** [Full MiniCM / nAa XDA index](https://github.com/MiniCM-Project/.github/blob/main/profile/XDA_INDEX.md) · [MiniCM organization](https://github.com/MiniCM-Project) · [nobodyAtall on XDA](https://xdaforums.com/m/nobodyatall.788040/)
 
 ---
 
