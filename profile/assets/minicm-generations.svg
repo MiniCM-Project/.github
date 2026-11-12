@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="200" viewBox="0 0 1100 200" role="img" aria-label="MiniCM Android generations from Froyo to Jelly Bean">
+<rect width="1100" height="200" rx="18" fill="#0b2023"/><path d="M120 86H971" stroke="#57e9b0" stroke-opacity=".55" stroke-width="5"/>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+<circle cx="125" cy="86" r="17" fill="#6feac0"/><circle cx="408" cy="86" r="17" fill="#6feac0"/><circle cx="684" cy="86" r="17" fill="#f4c581"/><circle cx="970" cy="86" r="17" fill="#f4c581"/>
+<g fill="#e9fff8" font-size="27" font-weight="700"><text x="125" y="49">MiniCM6</text><text x="408" y="49">MiniCM7</text><text x="684" y="49">MiniCM9</text><text x="970" y="49">MiniCM10</text></g>
+<g fill="#aed2ca" font-size="18"><text x="125" y="131">Froyo</text><text x="408" y="131">Gingerbread</text><text x="684" y="131">Ice Cream Sandwich</text><text x="970" y="131">Jelly Bean</text></g>
+<g fill="#87a7a4" font-size="16" font-family="monospace"><text x="125" y="157">Android 2.2</text><text x="408" y="157">Android 2.3</text><text x="684" y="157">Android 4.0</text><text x="970" y="157">Android 4.1</text></g></g>
+</svg>
