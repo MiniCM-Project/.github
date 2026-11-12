@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - ".github/workflows/render-section-headings.yml"
+      - "scripts/render_section_headings.py"
   workflow_dispatch:
 permissions:
   contents: write
