@@ -12,10 +12,10 @@ def ft(sz,bold=False,mono=False):
     return ImageFont.truetype(FONTS+("/DejaVuSansMono.ttf" if mono else "/DejaVuSans-Bold.ttf" if bold else "/DejaVuSans.ttf"),sz)
 WHITE=(233,255,251); MINT=(78,241,195); CYAN=(105,223,202); GRID=(19,72,77)
 rows=[
-("01_roms.gif","01",["THE ROMS"],"MINICM6 / MINICM7 / MINICM9 / MINICM10","roms"),
-("02_kernel.gif","02",["nAa KERNEL"],"LINUX KERNEL / XPERIA HARDWARE / RECOVERY","kernel"),
-("03_xda.gif","03",["XDA RELEASES","& ACHIEVEMENTS"],"ORIGINAL THREADS / DEVELOPMENT MILESTONES","xda"),
-("04_community.gif","04",["THE COMMUNITY"],"OPEN SOURCE / TESTERS / CONTRIBUTORS","community"),
+("01_roms_v2.gif","01",["THE ROMS"],"MINICM6 / MINICM7 / MINICM9 / MINICM10","roms"),
+("02_kernel_v2.gif","02",["nAa KERNEL"],"LINUX KERNEL / XPERIA HARDWARE / RECOVERY","kernel"),
+("03_xda_v2.gif","03",["XDA RELEASES","& ACHIEVEMENTS"],"ORIGINAL THREADS / DEVELOPMENT MILESTONES","xda"),
+("04_community_v2.gif","04",["THE COMMUNITY"],"OPEN SOURCE / TESTERS / CONTRIBUTORS","community"),
 ]
 def blend(c1,c2,t):
     return tuple(int(a+(b-a)*t) for a,b in zip(c1,c2))
@@ -81,7 +81,30 @@ def frame(heading,num,lines,subtitle,kind,i,n):
     g.ellipse((1043,98,1077,132),fill=(37,255,210,alpha))
     glow=glow.filter(ImageFilter.GaussianBlur(12))
     base=Image.alpha_composite(base.convert("RGBA"),glow)
+    # Clearly visible continuously cycling light sweep. Its position returns
+    # smoothly to the start without a jump, and all text remains stationary.
+    sweep_t=.5-.5*math.cos(phase)
+    sweep_x=260+750*sweep_t
+    sweep=Image.new("RGBA",(W,H),(0,0,0,0))
+    beam=ImageDraw.Draw(sweep)
+    # Soft vertical light traveling across the subtitle and title area.
+    beam.rounded_rectangle((int(sweep_x-45),18,int(sweep_x+45),151),
+                           radius=26,fill=(58,255,190,48))
+    beam.line((int(sweep_x),26,int(sweep_x),145),fill=(108,255,205,100),width=5)
+    sweep=sweep.filter(ImageFilter.GaussianBlur(19))
+    base=Image.alpha_composite(base,sweep)
     d=ImageDraw.Draw(base)
+    # Bright moving traces with a wide visible trail on the top and bottom
+    # strokes; at the turning points, movement slows naturally.
+    y_top=3
+    left=max(5,int(sweep_x-54));right=min(W-5,int(sweep_x+54))
+    d.line((left,y_top,right,y_top),fill=(101,255,203,255),width=3)
+    d.line((left,H-4,right,H-4),fill=(67,228,183,255),width=3)
+    # Larger pulsing circuit segment rather than near-invisible dots.
+    electric=(math.sin(phase-math.pi/2)+1)/2
+    bright=(int(65+125*electric),int(172+78*electric),int(158+68*electric),255)
+    d.line((902,45,1032,45,1060,74),fill=bright,width=5)
+    d.line((1030,145,1060,115),fill=bright,width=5)
     d.ellipse((896,41,904,49),fill=blend((34,160,143),MINT,strength))
     d.ellipse((1057,112,1063,118),fill=blend((40,150,138),MINT,strength))
     return base.convert("RGB")
